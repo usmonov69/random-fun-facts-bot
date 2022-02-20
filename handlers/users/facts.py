@@ -65,7 +65,7 @@ async def facts(call:CallbackQuery):
 
 @dp.message_handler(commands=['lang'])
 async def change_lang(message:Message):
-	text = "🇬🇧 Choose language 🇺🇿\n\nTilni tanlang\n\n🇷🇺 Выберите язык"
+	text = "🇬🇧 Choose language \n\n🇺🇿 Tilni tanlang\n\n🇷🇺 Выберите язык"
 	await message.answer(text=text, reply_markup=engUz )
 
 
